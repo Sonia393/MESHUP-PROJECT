@@ -16,6 +16,5 @@ function initialize(){
     map1=new google.maps.Map(document.getElementById('map_canvas1'),mapOptions1);
     map1=new google.maps.Map(document.getElementById('map_canvas1'),mapOptions1);
 }
-}
 
-}
+
