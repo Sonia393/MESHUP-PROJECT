@@ -1,18 +1,14 @@
 <html>
     <head>
     <title>
-         Map Object
+         Map DOM Object
     </title>   
     <meta name="viewprot" content="initial_scale=1.0 ,user_scalable=no">
     <meta charset="utf_8">
-  <link rel="stylesheet" href="style2.css"/>
+  <link rel="stylesheet" href="style.css"/>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBAUZSHcvn1W9FgrrznBI7ZdoT5_fTB2mA"></script>
-  <script src="mapscript.js" charset="utf_8" > </script>
+  <script src="manscript.js" charset="utf_8" > </script>
 </head>
       <body>
-          <div id="map_canvas1"></div>
+          <div class="content" id="page1">page #1</div>
           <div id="map_canvas2"></div>
-          <div id="map_canvas3"></div>
-         
-      </body>
-  </head>

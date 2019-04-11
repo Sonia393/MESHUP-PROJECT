@@ -1,6 +1,6 @@
 var map1,map2,map3;
 function initialize(){
-    var mapOptions={
+    var mapOptions1={
         zoom:2,
         center:{lat:40.758904,lng:-73.985128}
     };
@@ -13,8 +13,9 @@ function initialize(){
         center:{lat:40.758904,lng:-73.985128}
     };
     map1=new google.maps.Map(document.getElementById('map_canvas1'),mapOptions1);
-    map1=new google.maps.Map(document.getElementById('map_canvas1'),mapOptions1);
-    map1=new google.maps.Map(document.getElementById('map_canvas1'),mapOptions1);
+    map2=new google.maps.Map(document.getElementById('map_canvas1'),mapOptions3);
+    map3=new google.maps.Map(document.getElementById('map_canvas1'),mapOptions1);
 }
+google.maps.event.addDomListener(window,'load',initialize);
 
 
